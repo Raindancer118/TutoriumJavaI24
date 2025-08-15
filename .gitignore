@@ -1,0 +1,5 @@
+# Lokale Obsidian-Konfigurationsdateien ignorieren
+.obsidian/graph.json
+.obsidian/workspace.json
+.obsidian/app.json
+
