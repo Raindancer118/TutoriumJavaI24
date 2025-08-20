@@ -48,83 +48,81 @@ public int relativeXPositionTo(Point p) {
 ```
 ## Frage 8
 ```
-public class Tamagotchi{
-    // Status:
-    private int hunger = 0;
-    private int mood = 0;
-    private int fatigue = 0;
-    
-    // Schwellwerte:
-    private int hungerThresold;
-    private int moodThresold;
-    private int fatigueThresold;
-    
-    public Tamagotchi(int hT, int mT, int fT) {
-        hungerThresold = hT;
-        moodThresold =mT;
-        fatigueThresold = fT;
-    }
-    
-    public void play() {
-        if (isHungry()) return;
-        else {
-            hunger = hunger + 2;
-            mood = mood +2;
-            fatigue = fatigue +3;
-        }        
-    }
-    
-    public void eat(){
-        if (isTired()) return;
-        else {
-            hunger = hunger -3;
-            fatigue = fatigue +2;
-        }
-    }
-    
-    public void sleep(){
-        if (isHungry()) {
-            hunger++;
-            mood--;
-        }
-        else {
-            hunger++;
-            mood++;
-        }
-        fatigue = 0;
-    }
-    
-    public void pet(){
-        hunger++;
-        mood = mood +2;
-    }
-    
-    private boolean isHungry(){
-        if (hunger > hungerThresold) return true;
-        else return false;
-    }
-    
-    private boolean isTired(){
-        if (fatigue > fatigueThresold) return true;
-        else return false;
-    }
-    
-    private boolean isHappy(){
-        if (mood > moodThresold) return true;
-        else return false;
-    }
-    
-    public String getGeneralCondition(){
-        if (isTired()) return "tired";
-        if (isHungry()) return "hungry";
-        if (isHappy()) return "happy";
-        else return "indifferent";
-    }
-    
-    public void makeHappy(){
-        eat();
-        play();
-        sleep();
-    }
+public class Tamagotchi {  
+    // Exemplarvariablen  
+    //Status    private int hunger = 0;  
+    private int mood = 0;  
+    private int fatigue = 0;  
+    //Schwellwerte  
+    private int hungerTreshold;  
+    private int fatigueTreshold;  
+    private int moodTreshold;  
+  
+    // Konstruktor  
+    public Tamagotchi(int hungerTreshold, int fatigueTreshold, int moodTreshold) {  
+        this.hungerTreshold = hungerTreshold;  
+        this.fatigueTreshold = fatigueTreshold;  
+        this.moodTreshold = moodTreshold;  
+    }  
+  
+    // Methoden  
+    public void play() {  
+        if(!isHungry()) {  
+            hunger += 2;  
+            mood += 2;  
+            fatigue += 3;  
+        }  
+    }  
+  
+    public void sleep() {  
+        if(isHungry()) {  
+            hunger++;  
+            mood--;  
+            fatigue = 0;  
+        }  
+        else {  
+            hunger++;  
+            mood++;  
+            fatigue = 0;  
+        }  
+    }  
+  
+    public void eat() {  
+        if (!isTired()) {  
+            hunger -= 3;  
+            fatigue += 2;  
+        }  
+    }  
+  
+    public void pet() {  
+        hunger++;  
+        mood += 2;  
+    }  
+  
+    public String getGeneralCondition() {  
+        if (isTired()) return "tired";  
+        if (isHungry()) return "hungry";  
+        if (isHappy()) return "happy";  
+        return "indifferent";  
+    }  
+  
+    public void makeHappy() {  
+        eat();  
+        play();  
+        sleep();  
+    }  
+  
+    // Helper  
+    private boolean isHungry() {  
+        return (hunger > hungerTreshold);  
+    }  
+  
+    private boolean isTired() {  
+        return (fatigue > fatigueTreshold);  
+    }  
+  
+    private boolean isHappy(){  
+        return (mood > moodTreshold);  
+    }  
 }
 ```
