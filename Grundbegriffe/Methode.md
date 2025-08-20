@@ -20,3 +20,5 @@ Eine Methode beginnt mit der **Methodensignatur**. Diese setzt sich zusammen aus
 >- Methodenname *streicheln*
 >- Parameter *hund hund* - Es soll offensichtlich ein [[Objekt]], das in der Methode als *hund* bezeichnet wird, vom Typ *hund* mitgegeben werden.
 
+>[!HINT]
+>Nach einem **return**-Statement wird eine Methode **immer** verlassen. Return Statements können auch dann in die Methode eingefügt werden, wenn diese keinen Rückgabetypen hat. Es muss hierbei nur darauf geachtet werden, dass hinter dem return keine Variable oder Daten stehen.

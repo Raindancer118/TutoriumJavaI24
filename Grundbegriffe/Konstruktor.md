@@ -14,8 +14,13 @@ Der Konstruktor ist eine [[Methode]], die in der [[Klasse]] steht und dafür ver
 
 ## Aufruf
 Der Konstruktor einer Klasse wird mit dem Aufruf `new [Klassenname]`aufgerufen.
+
+>[!EXAMPLE]
+>```
+>Auto audi = new Auto("Audi");
+>``` 
 ## Aufbau
-Für den Aufbau wird zunächst der Sichtbarkeitsmodifikator des Konstruktors gesetzt. Dieser bestimmt in diesem Fall, ob Objekte der Klasse aus dem eigenen Package oder auch von außerhalb erstellt werden dürfen.
+Für den Aufbau wird zunächst der Sichtbarkeitsmodifikator des Konstruktors gesetzt. Dieser bestimmt in diesem Fall, ob [[Objekt|Objekte]] der Klasse aus dem eigenen Package oder auch von außerhalb erstellt werden dürfen.
 Anschließend steht der Name der Klasse. 
 Daraufhin folgt die Parameterliste. Die beiden runden Klammern müssen auch dann leer hingeschrieben werden, wenn es keine Parameter für den Konstruktor gibt. 
 
