@@ -3,3 +3,4 @@ Diese Datei zeigt nur Verknüpfungen zu anderen **Templates** auf. Sie ist dafü
 ### Übersicht:
 - [[code]]
 - [[title]]
+- [[Syntax]]

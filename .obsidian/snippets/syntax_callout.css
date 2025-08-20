@@ -1,0 +1,4 @@
+.callout[data-callout="syntax"] {
+    --callout-color: 180, 210, 240;
+    --callout-icon: whole-word;
+}
