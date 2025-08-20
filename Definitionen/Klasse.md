@@ -4,7 +4,7 @@ aliases:
 ---
 # Klasse
 Eine Klasse in Java ist eine Art Schablone für [[Objekt|Objekte]].
-Dabei ist jedes [[Objekt]], das von dieser Klasse erstellt wird, zunächst gleich, bis auf die UUID und spezifisch bei der Objekterstellung angegebene Parameter.
+Dabei ist jedes [[Objekt]], das von dieser Klasse erstellt wird, zunächst gleich, bis auf die UUID und spezifisch bei der Objekterstellung angegebene [[Parameter]].
 
 ## Aufbau
 Eine Klasse ist folgendermaßen aufgebaut: 

@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Grundbegriffe/Methode.md",
-      "timestamp": 1755698503598
+      "filepath": "Definitionen/Datentypen.md",
+      "timestamp": 1755701282511
     },
     {
-      "filepath": "Parameter.md",
-      "timestamp": 1755676431944
+      "filepath": "Definitionen/Methode.md",
+      "timestamp": 1755701223501
     },
     {
-      "filepath": "Grundbegriffe/Konstruktor.md",
-      "timestamp": 1755676401148
+      "filepath": "Definitionen/Objekt.md",
+      "timestamp": 1755701197823
     },
     {
-      "filepath": "Grundbegriffe/Objekt.md",
-      "timestamp": 1755676328552
+      "filepath": "Definitionen/Klasse.md",
+      "timestamp": 1755701119222
     },
     {
-      "filepath": "Grundbegriffe/Klasse.md",
-      "timestamp": 1755676326463
+      "filepath": "Definitionen/Parameter.md",
+      "timestamp": 1755699689637
     }
   ],
   "bookmarkedFileStore": [],
