@@ -24,16 +24,20 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Untitled.md",
-      "timestamp": 1755513236584
+      "filepath": "Grundbegriffe/Konstruktor.md",
+      "timestamp": 1755675736295
     },
     {
-      "filepath": "Klasse.md",
-      "timestamp": 1755512445017
+      "filepath": "Grundbegriffe/Objekt.md",
+      "timestamp": 1755675727671
     },
     {
-      "filepath": "README.md",
-      "timestamp": 1755253922767
+      "filepath": "Grundbegriffe/Klasse.md",
+      "timestamp": 1755675584981
+    },
+    {
+      "filepath": "Grundbegriffe/Methode.md",
+      "timestamp": 1755675515738
     }
   ],
   "bookmarkedFileStore": [],
