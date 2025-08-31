@@ -22,3 +22,4 @@ Die **While-Schleife** ist die **abweisende** Schleife. Diese Benennung liegt da
 
 ## For (For Each-Schleife)
 Die For Each Schleife wird auch als **Zählende Schleife** bezeichnet.
+Wird sie angewendet, wird jede Iteration der Schleife eine bestimmte Operation auf die Zählvariable angewendet.
